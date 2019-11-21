@@ -1,0 +1,229 @@
+body{ background-color: black; }
+
+.Layer1 {
+  background-image: url("BLBEE.png");
+  position: absolute;
+  left: 42px;
+  top: 147px;
+  width: 640px;
+  height: 360px;
+  z-index: 3;
+}
+
+
+.Layer2 {
+  background-image: url("de ti.png");
+  position: absolute;
+  left: 110px;
+  top: 624px;
+  width: 280px;
+  height: 452px;
+  z-index: 4;
+  
+}
+
+
+.Layer3 {
+  background-image: url("que-gustan-tanto-peliculas-terror-L-7QlASu.png");
+  position: absolute;
+  left: 431px;
+  top: 628px;
+  width: 314px;
+  height: 472px;
+  z-index: 5;
+
+}
+
+
+.Layer4 {
+  background-image: url("9788415594642.png");
+  position: absolute;
+  left: 780px;
+  top: 628px;
+  width: 312px;
+  height: 452px;
+  z-index: 9;
+}
+
+
+.Layer5 {
+  background-image: url("3230288.png");
+  position: absolute;
+  left: 1122px;
+  top: 624px;
+  width: 316px;
+  height: 467px;
+  z-index: 10;
+}
+
+
+.Layer6 {
+  background-image: url("Project-X-2012-movie-poster.png");
+  position: absolute;
+  left: 1471px;
+  top: 624px;
+  width: 332px;
+  height: 459px;
+  z-index: 11;
+}
+
+
+
+.__ {
+  font-size: 72px;
+  font-family: "Tw Cen MT Condensed";
+  color: rgb( 254, 0, 0 );
+  text-align: left;
+  position: absolute;
+  left: 1826px;
+  top: 817.609px;
+  width: 39px;
+  height: 36px;
+  z-index: 7;
+}
+
+._ {
+  font-size: 72px;
+  font-family: "Tw Cen MT Condensed";
+  color: rgb( 254, 0, 0 );
+  text-align: left;
+  position: absolute;
+  left: 39px;
+  top: 799.609px;
+  width: 39px;
+  height: 36px;
+  z-index: 6;
+}
+
+.MOMFLIX {
+  font-size: 72px;
+  font-family: "Tw Cen MT Condensed";
+  color: rgb( 255, 0, 0 );
+  text-align: left;
+  position: absolute;
+  left: 54px;
+  top: 41.609px;
+  width: 192px;
+  height: 47px;
+  z-index: 12;
+}
+
+.LASMEJORESPELICULASYSERIESDEMEXICO {
+  font-size: 72px;
+  font-family: "Tw Cen MT Condensed";
+  color:white;
+  text-align: left;
+  position: absolute;
+  left: 797px;
+  top: 30.609px;
+  width: 933px;
+  height: 47px;
+  z-index: 13;
+}
+
+._Estrenos__ {
+  font-size: 48px;
+  font-family: "Tw Cen MT Condensed";
+  color: rgb( 254, 0, 0 );
+
+  text-align: left;
+  position: absolute;
+  left: 798px;
+  top: 167.072px;
+  width: 129px;
+  height: 30px;
+  z-index: 8;
+}
+
+._Amor___ {
+  font-size: 48px;
+  font-family: "Tw Cen MT Condensed";
+  color: rgb( 254, 0, 0 );
+  text-align: left;
+  position: absolute;
+  left: 798px;
+  top: 216.072px;
+  width: 85px;
+  height: 30px;
+  z-index: 9;
+}
+
+._Accion____________ {
+  font-size: 48px;
+  font-family: "Tw Cen MT Condensed";
+  color: rgb( 254, 0, 0 );
+  text-align: left;
+  position: absolute;
+  left: 798px;
+  top: 270.072px;
+  width: 98px;
+  height: 30px;
+  z-index: 10;
+}
+
+._Terror_ {
+  font-size: 48px;
+  font-family: "Tw Cen MT Condensed";
+  color: rgb( 254, 0, 0 );
+  text-align: left;
+  position: absolute;
+  left: 798px;
+  top: 324.072px;
+  width: 94px;
+  height: 30px;
+  z-index: 11;
+}
+
+#cl1:hover {     
+	background-color:;
+	color:white;}
+
+#bordeimagen:hover{
+border:5px solid red;
+padding:5px;}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: red;
+  text-align: center;
+  font-size: 72px;
+  font-family:Tw Cen MT Condensed;
+  padding: 20px;
+  position: absolute;
+  left: 54px;
+  top: 41.609px;
+  width: 192px;
+  height: 100px;
+  z-index: 12;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
